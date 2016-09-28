@@ -1,0 +1,59 @@
+Образец шаблона  "ШТОРМ ОЯ" в адресной книге The Bat! для Улан-Удэ (в шаблоне в строке "кому" указать адрес получателя
+csd1@ulanude.mecom.ru):
+
+ZCZC
+111
+WWRA01 RUUU
+WWHP
+%SUBJECT="tel"
+%CHARSET="koi8-r"
+
+
+Открыть новое письмо, выбрать адрес из адресной книги "Шторм ОЯ", в письме появится готовый заголовок. Подписать руками группу даты-времени, вписать текст шторма и поставить знак = Отправить письмо.
+
+
+По этому типу создаете еще 3 адреса с названиями:
+"ОТМЕНА ОЯ"
+"ШТОРМ НГЯ"
+"ОТМЕНА НГЯ"
+
+--------------
+НАЧАЛО НГЯ
+--------------
+ZCZC
+111
+VVRA01 RUUU (ВРЕМЯ) 
+WWAP
+%SUBJECT="ШТОРМ"
+%CHARSET="koi8-r"
+%TO="umasinp@ulan-ude.mecom.ru, csd1@ulan-ude.mecom.ru"
+--------------
+НАЧАЛО ОЯ
+--------------
+ZCZC
+111
+WWRA01 RUUU  (ВРЕМЯ)
+WWHP
+%SUBJECT="ШТОРМ"
+%CHARSET="koi8-r"
+%TO="umasinp@ulan-ude.mecom.ru, csd1@ulan-ude.mecom.ru" 
+--------------
+ОТМЕНА НГЯ
+--------------
+ZCZC
+111
+VORA01 RUUU  (ВРЕМЯ)
+WOAP 
+%SUBJECT="ОТМЕНА"
+%CHARSET="koi8-r"
+%TO="umasinp@ulan-ude.mecom.ru, csd1@ulan-ude.mecom.ru"
+--------------
+ОТМЕНА ОЯ
+--------------
+ZCZC
+111
+WORA01 RUUU (ВРЕМЯ)
+WOHP
+%SUBJECT="ОТМЕНА"
+%CHARSET="koi8-r"
+%TO="umasinp@ulan-ude.mecom.ru, csd1@ulan-ude.mecom.ru"
